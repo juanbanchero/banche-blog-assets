@@ -2,11 +2,15 @@
 <!--
   La esquina de Banche · favicon
   Réplica del wordmark: `●` lavender sobre Mocha base.
+  Cuadrado puro (sin border-radius) — las esquinas redondeadas creaban
+  transparencia que Safari rellenaba con blanco. Cuadrado puro = identidad
+  consistente en Chrome/Safari/Firefox.
+
   Catppuccin Mocha exacto:
     base:     #1e1e2e
     lavender: #b4befe
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="12" ry="12" fill="#1e1e2e"/>
-  <circle cx="32" cy="32" r="16" fill="#b4befe"/>
+  <rect width="64" height="64" fill="#1e1e2e"/>
+  <circle cx="32" cy="32" r="18" fill="#b4befe"/>
 </svg>
